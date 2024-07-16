@@ -1,6 +1,0 @@
-[submodule "authService"]
-	path = authService
-	url = ../authService
-[submodule "orderService"]
-	path = orderService
-	url = ../ordersService
