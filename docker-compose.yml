@@ -23,6 +23,9 @@ services:
       - "9092:9092"
     depends_on:
       - zookeeper
+    volumes:
+      - ~/kafka/data/zookeeper_data:/var/lib/zookeeper/data
+      - ~/kafka/data/zookeeper_log:/var/lib/zookeeper/log
 
   zookeeper:
     image: wurstmeister/zookeeper:latest
