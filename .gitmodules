@@ -4,3 +4,6 @@
 [submodule "ordersService"]
 	path = ordersService
 	url = ../ordersService
+[submodule "apiGateway"]
+	path = apiGateway
+	url = ../apiGateway
